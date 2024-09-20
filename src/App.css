@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.product-box {
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  display: inline-block;
+  height: 150px;
+  flex: 1;
+}
+.btn {
+  display: block;
+  margin: 20px auto;
+  padding: 5px 8px;
+  cursor: pointer;
+}
